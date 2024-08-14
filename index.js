@@ -17,7 +17,7 @@ app.use("/api/user", userRoutes);
 app.use("/api/blog", blogRoutes);
 
 app.use("/api", (req, res, next) => {
-      res.send("wrong api");
+      res.send("welcome to Blog Api: ");
 })
 
 app.listen(PORT, () => {
